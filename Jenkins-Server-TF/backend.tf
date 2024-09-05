@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "my-ews-baket1"
+    bucket         = "terraform-s3-bucker123334321"
     region         = "us-east-1"
-    key            = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/Jenkins-Server-TF/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    key            = "Jenkins-Server/terraform.tfstate"
+    dynamodb_table = "shivam"
     encrypt        = true
   }
   required_version = ">=0.13.0"
