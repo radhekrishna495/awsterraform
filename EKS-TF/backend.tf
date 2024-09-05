@@ -3,7 +3,7 @@ terraform {
     bucket         = "terraform-s3-bucker123334321"
     region         = "us-east-1"
     key            = "EFS/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    dynamodb_table = "EFS_tf"
     encrypt        = true
   }
   required_version = ">=0.13.0"
